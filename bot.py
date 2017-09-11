@@ -89,7 +89,6 @@ if __name__ == '__main__':
     while True:
         # Pause for certain time
         date_and_time = datetime.datetime.now()
-        print date_and_time.second
         if date_and_time.hour == config.hour_time\
                 and date_and_time.minute == config.minute_time \
                 and date_and_time.second == 0:
