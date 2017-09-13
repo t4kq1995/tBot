@@ -12,7 +12,7 @@ def __get_task_list():
     # Here will be some request to API server to get task list
     return [
         {
-            'name': 'Владислав Небеснюк',
+            'name': 'Бабушка Люба',
             'birthday': '24.07.1995',
             'group': 'Семья'
         },
@@ -23,21 +23,28 @@ def __get_task_list():
         },
         {
             'name': 'Тест',
-            'birthday': '14.09.1994',
+            'birthday': '13.09.1994',
             'group': 'Тест'
         },
         {
             'name': 'Тест',
-            'birthday': '11.09.1994',
+            'birthday': '16.09.1994',
             'group': 'Тест'
         }
     ]
 
 
 def __get_message_template(task):
+    current_year = datetime.datetime.now().year
+    task_year = int(current_year) - int(task['birthday'].split('.')[2])
     return 'Имя и фамилия: {0}\n' \
            'Группа: {1}\n' \
-           'Дата рождения: {2}\n'.format(task['name'], task['group'], task['birthday'])
+           'Дата рождения: {2}\n' \
+           'Полных лет: {3}\n'.format(task['name'],
+                                      task['group'],
+                                      task['birthday'],
+                                      task_year
+                                      )
 
 
 def __check_date_task(task):
