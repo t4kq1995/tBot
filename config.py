@@ -8,5 +8,5 @@ user_api = 'admin'
 password_api = 'pro100vlad'
 
 # Bot params
-hour_time = 16
-minute_time = 28
+hour_time = 12
+minute_time = 29
