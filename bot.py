@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
     while True:
         # Pause for certain time
-        date_and_time = datetime.datetime.now()
+        date_and_time = datetime.datetime.now() + datetime.timedelta(hours=7)
         if date_and_time.hour == config.hour_time\
                 and date_and_time.minute == config.minute_time \
                 and date_and_time.second == 0:

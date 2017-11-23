@@ -43,9 +43,8 @@
   {"name": "Дядя Андрей", "birthday": "00.00.0000", "group": "Родственники", "access": "ALL", "type": "birthday"},
   {"name": "Соня Никонова", "birthday": "23.09.2002", "group": "Родственники", "access": "ALL", "type": "birthday"},
   {"name": "Саша Никонова", "birthday": "00.00.0000", "group": "Родственники", "access": "ALL", "type": "birthday"},
-  {"name": "Саша Буц", "birthday": "00.00.0000", "group": "Работа", "access": "ALL", "type": "birthday"},
-  {"name": "Ксюша Мартынюк", "birthday": "00.00.0000", "group": "Работа", "access": "ALL", "type": "birthday"},
-  {"name": "Кирилл Лень", "birthday": "00.00.0000", "group": "Работа", "access": "ALL", "type": "birthday"},
+  {"name": "Саша Буц", "birthday": "30.10.1994", "group": "Работа", "access": "ALL", "type": "birthday"},
+  {"name": "Кирилл Лень", "birthday": "24.01.1991", "group": "Работа", "access": "ALL", "type": "birthday"},
   {"name": "Данил Лемиш", "birthday": "00.00.0000", "group": "Работа", "access": "ALL", "type": "birthday"},
   {"name": "День HR-менеджера", "birthday": "20.09.0000", "group": "Уведомление", "access": "397003777", "type": "notification"}
 ]
